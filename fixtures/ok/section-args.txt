@@ -1,0 +1,9 @@
+section name
+  field1: foo
+  field2: bar
+
+  if flag(ghc >=9.3)
+    field3: yes
+
+section "weird name"
+  field4: bar

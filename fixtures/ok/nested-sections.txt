@@ -1,0 +1,18 @@
+section1
+  field1: foo
+  field2: bar
+  nested-section
+    field5: foo
+    field6: bar
+
+  another-section
+
+  field7: foo
+  field8: bar
+
+section3
+  field3: foo
+  field4: bar
+
+section4
+field9: quu

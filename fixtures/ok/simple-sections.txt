@@ -1,0 +1,7 @@
+section1
+  field1: foo
+  field2: bar
+
+section2
+  field3: foo
+  field4: bar

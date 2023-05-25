@@ -1,0 +1,18 @@
+packages: cabal-fields/
+packages: cabal-fields-dev/
+packages: cabal-fields-ffi/
+
+package cabal-fields
+  ghc-options: -Wall
+
+package cabal-fields-ffi
+  ghc-options: -Wall
+
+package cabal-fields-tests
+  ghc-options: -Wall
+
+tests: True
+
+with-compiler: ghc-9.2.8
+
+allow-newer: cabal-install-parsers-0.6.1.1:Cabal-syntax
