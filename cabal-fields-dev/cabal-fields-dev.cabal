@@ -9,6 +9,8 @@ extra-source-files:
   fixtures/errors/*.txt
   fixtures/ok/*.txt
 
+tested-with:        GHC ==9.2.8 || ==9.4.8 || ==9.6.5
+
 library
   default-language: Haskell2010
   hs-source-dirs:   src
